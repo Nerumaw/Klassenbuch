@@ -1,0 +1,43 @@
+html{
+    height: 100%;
+}
+
+header, footer{
+    flex: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main{
+    overflow-y: auto;
+    flex: auto;
+}
+
+.split{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    left: 0;
+}
+
+.top{
+    height: 20%;
+    top: 0;
+}
+
+.bottom{
+    height: 80%;
+    bottom: 0;
+}
+
+.centered{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+}
