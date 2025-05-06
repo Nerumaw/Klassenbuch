@@ -26,12 +26,13 @@ main{
 }
 
 .top{
-    height: 20%;
+    height: 15%;
     top: 0;
+    background-color: darkgray;
 }
 
 .bottom{
-    height: 80%;
+    height: 85%;
     bottom: 0;
 }
 
